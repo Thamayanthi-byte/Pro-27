@@ -3,8 +3,8 @@ class Chain {
         var options={
             bodyA: bodyA,
             bodyB:bodyB,
-            stiffness:100,
-            length:2 
+            stiffness:0.4,
+            length:250 
         }
 this.chain=Constraint.create(options)
 World.add(world,this.chain);
