@@ -19,10 +19,10 @@ function setup() {
  
 
 	  //Create the Bodies Here.
-    ground1 = new Ground(760,180,100,20);
+   ground1 = new Ground(760,180,500,20);
     
 
-    bob1 = new Bob(1000,100,50,50);
+    bob1 = new Bob(760,500,50,50);
     chain1 = new Chain(ground1.body,bob1.body);
 	  Engine.run(engine);
   
