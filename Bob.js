@@ -2,8 +2,8 @@ class Bob{
   constructor(x, y, width, height, angle) {
       var options = {
           'restitution':0.1,
-        'friction':99,
-        'density':99
+        'friction':0.9,
+        'density':0.9
       }
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.image = loadImage("circle.png");
